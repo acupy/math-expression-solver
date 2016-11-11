@@ -1,0 +1,23 @@
+{
+  "name": "genetic_algorithm",
+  "version": "0.1.0",
+  "description": "Genetic Algorithm with Node.js",
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "start": "node ./bin/bundle.js",
+    "build": "webpack"
+  },
+  "author": "Adam Czuprak",
+  "license": "ISC",
+  "dependencies": {
+    "math-expression-evaluator": "^1.2.14",
+    "genetic-algorithm-fw": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.3.13",
+    "webpack": "^1.13.3"
+  }
+}
