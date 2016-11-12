@@ -1,7 +1,7 @@
 {
-  "name": "genetic_algorithm",
+  "name": "math-expression-solver",
   "version": "0.1.0",
-  "description": "Genetic Algorithm with Node.js",
+  "description": "Math Expression Solver",
   "main": "index.js",
   "readmeFilename": "README.md",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "webpack"
   },
   "author": "Adam Czuprak",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "math-expression-evaluator": "^1.2.14",
     "genetic-algorithm-fw": "^1.5.0"
