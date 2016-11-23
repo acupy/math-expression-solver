@@ -1,23 +1,38 @@
 {
   "name": "math-expression-solver",
   "version": "0.1.0",
-  "description": "Math Expression Solver",
-  "main": "index.js",
-  "readmeFilename": "README.md",
-  "scripts": {
-    "start": "node ./bin/bundle.js",
-    "build": "webpack"
+  "description": "This package helps to solve mathematical expressions with maximum three variables, using a genetic algorithm framework.",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acupy/math-expression-solver.git"
   },
-  "author": "Adam Czuprak",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist"
+  },
+  "keywords": [
+    "genetic",
+    "algorithm",
+    "genetic algorithm",
+    "geneticalgorithm",
+    "metaheuristic",
+    "evolutionary algorithm",
+    "math",
+    "mathematical",
+    "mathematical expression"
+  ],
+  "author": {
+    "name": "Adam Czuprak"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/acupy/math-expression-solver",
+  "readmeFilename": "README.md",
   "dependencies": {
-    "math-expression-evaluator": "^1.2.14",
-    "genetic-algorithm-fw": "^1.5.0"
+    "genetic-algorithm-fw": "^1.7.0",
+    "math-expression-evaluator": "^1.2.14"
   },
   "devDependencies": {
-    "babel-core": "^6.18.2",
-    "babel-loader": "^6.2.7",
-    "babel-preset-es2015": "^6.3.13",
-    "webpack": "^1.13.3"
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
   }
 }
